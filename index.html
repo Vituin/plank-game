@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Plang</title>
+</head>
+
+<body>
+    <main>
+        <div id="game-intro">
+            <img src="/Images/logo.png" alt="" class="logo-img">
+            <br />
+            <button id="start-button">Start Game</button>
+            <p>Use the left "a" and right "d" to move, shooter is "intro"</p>
+        </div>
+
+        <div id="game-container">
+            <div id="game-screen"></div>
+            <div id="game-info">
+                <p>Score: <span id="score">0</span></p>
+                <p>Lives: <span id="lives">5</span></p>
+            </div>
+        </div>
+
+        <div id="game-end">
+            <img src="/Images/logo.png" alt="" class="logo-img">
+            <h1 id="end-message">Game Over</h1>
+            <br />
+            <button id="restart-button">Restart</button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="js/component.js"></script>
+    <script type="text/javascript" src="/JS/obstacles.js"></script>
+    <script type="text/javascript" src="/JS/player.js"></script>
+    <script type="text/javascript" src="/JS/game.js"></script>
+    <script type="text/javascript" src="/JS/shoter.js"></script>
+    <script type="text/javascript" src="/JS/script.js"></script>
+</body>
+
+</html>
